@@ -20,13 +20,13 @@ fun main() {
     do {
         println("hey java")
         x++
-    } while(x <15)
+    } while(x <14)
 
 
     //break and continue
     for (c in 50 .. 55){
 
-        if (c == 54)
+        if (c == 52)
             break
         println("$c")
 
