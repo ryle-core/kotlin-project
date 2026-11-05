@@ -2,6 +2,7 @@ fun main() {
     //arithmetic operators
     var num1 = 10
     var num2 = 5
+    var num3 = 45
 
 
 
@@ -9,6 +10,7 @@ fun main() {
     println(num1 - num2)
     println(num1 + num2)
     println(num1 / num2)
+    println(num1*num3)
     println(num1 % num2) //modulus
 
 
@@ -30,6 +32,9 @@ fun main() {
     println(number)
     number+= 10
     println(number)
+    var number2 = 300
+    number2+= 150
+    println(number2)
 
     //logical operators - &&(and) , || (or) ,! (not)
 

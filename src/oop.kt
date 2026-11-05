@@ -1,8 +1,9 @@
-class Dog {
 
-    var colour = "black"
-    var age = 20
-    var breed = "husky"
+//class is a blueprint of an object
+// object is an instance of a class
+class Dog(var color: String, var age: Int, var breed: String) {
+
+
 
 
     fun bark(){
@@ -15,7 +16,24 @@ class Dog {
 
 }
 
+class Cat(var color: String, var age: Int, var breed: String){
+
+    fun meow(){
+        println("meow!")
+    }
+}
+
+
 fun main() {
-    var mydog = Dog()
-    var dog2 = Dog()
+    var mydog = Dog("brown", 3, "husky")
+
+    println(mydog.color)
+    println(mydog.age)
+    var dog2 = Dog("black", 4,"rottweiler")
+    var cat = Cat("black", 5,"Orangecat")
+    println(cat.color)
+
+
+
+
 }

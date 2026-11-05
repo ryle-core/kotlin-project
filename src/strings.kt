@@ -4,6 +4,7 @@ fun main() {
     var school ="emobilis"
     var firstname = "fidel"
     var lastname = "livre"
+    var hobby = "swimming"
 
     println(course[0]) //index position
     //size of string
@@ -15,6 +16,7 @@ fun main() {
 
     println(school + " " + course)
     println(firstname + " " + lastname)
+    println(firstname + " " + lastname + " " + "attends" +" " + hobby + " " + "classes")
 
 
 }

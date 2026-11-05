@@ -1,6 +1,6 @@
 fun main() {
 
-    var number = 5
+    var number = 4
 
     var dayofweek =when (number) {
         1 ->"monday"
